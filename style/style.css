@@ -61,3 +61,18 @@ p{
 .bottom{
   margin-top: 7.1rem;
 }
+.img{
+  max-width: 570px;
+
+}
+/* banner responsive for small device */
+@media screen and (max-width: 576px) {
+   .hide{
+    display: none;
+   }
+   .flower-logo{
+    display: flex;
+    flex-direction: column-reverse;
+   }
+
+}
