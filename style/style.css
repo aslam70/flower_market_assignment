@@ -46,7 +46,7 @@ h3{
   font-weight: 700;
 
 }
-p{
+.good{
   max-width: 35.6rem;
   margin-top: 0;
   margin-bottom: 0;
@@ -75,4 +75,69 @@ p{
     flex-direction: column-reverse;
    }
 
+}
+
+/* main section */
+main{
+  margin-top: 70px;
+}
+.plant{
+  margin-bottom: 500px;
+  max-width: 72rem;
+  margin: 0 auto;
+  /* border: 1px solid black; */
+  text-align: center;
+}
+.fine{
+  font-family: Noto Serif;
+  font-size: 3rem; 
+  font-weight: 700;
+  margin: 0;
+}
+button{
+  width: 270px;
+  height: 50px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+font-weight: 600;
+background: rgba(233, 90, 8, 1);
+/* padding: 26px 50px 26px 50px; */
+}
+.card-child img{
+  max-width: 270px;
+}
+.para{
+  text-align: center;
+  
+}
+.card-child{
+  max-width: 270px;
+}
+.card{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.flower-card{
+  max-width: 72rem;
+  margin: 0 auto;
+}
+
+
+/* responsive card section */
+@media screen and (max-width:570px)  {
+  .card{
+    
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card-child img{
+  max-width: 171px;
+}
+.card-child{
+  max-width: 1710px;
+
+}
+button{
+width: 171px;
+}
 }
